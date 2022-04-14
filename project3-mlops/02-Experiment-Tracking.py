@@ -310,6 +310,7 @@ runs[0].data.metrics
 # COMMAND ----------
 
 artifactURI = 'runs:/'+runs[0].info.run_id+"/random-forest-model"
+print(artifactURI)
 
 # COMMAND ----------
 
